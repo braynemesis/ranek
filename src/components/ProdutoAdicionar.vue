@@ -22,7 +22,8 @@ import { api } from '../services.js'
                     nome: "",
                     preco: "",
                     descricao: "",
-                    fotos: null
+                    fotos: null,
+                    vendido: false
                 }
             }
         },
@@ -30,7 +31,7 @@ import { api } from '../services.js'
             formatarProduto(){
                 this.produto.usuario_id = this.$store.state.usuario.id
             },
-            adicionarProduto(){
+            adicionarProduto(){ 
                 this.formatarProduto()
                 api.post('/produto', this.produto)
                 .then(() => {

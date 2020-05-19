@@ -2,12 +2,13 @@
   "usuario": [
     {
       "id": "andre@origamid.com",
-      "email": "andre@origamid.com",
       "nome": "André Rafael",
+      "email": "andre@origamid.com",
       "senha": "123",
-      "rua": "Rua Ali Perto",
       "cep": "12345678",
-      "numero": "25",
+      "rua": "Rua Ali Perto",
+      "numero": "150",
+      "bairro": "Pertim",
       "estado": "RJ",
       "cidade": "Rio de Janeiro"
     },
@@ -73,15 +74,6 @@
     }
   ],
   "produto": [
-    {
-      "id": "smartphone",
-      "nome": "Smartphone",
-      "usuario_id": "andre@origamid.com",
-      "preco": "1999",
-      "vendido": "false",
-      "descricao": "Esse é um novo smartphone.",
-      "fotos": null
-    },
     {
       "id": "notebook",
       "nome": "Notebook",
